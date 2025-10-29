@@ -1,9 +1,6 @@
-# Revolt-Motors-AI-Assistant
+# AI-Health-Assistant
 
-This repository contains the source code for a **real-time, full-stack voice assistant** built with **Google Gemini API** and **Node.js**.  
-The assistant replicates the functionality of the Revolt Motors chatbot, featuring continuous voice recognition, **automatic language detection (English/Hindi/Hinglish)**, and a sleek **theme-switching UI** for a seamless user experience.
-
-![AI Assistant Demo](https://live.revoltmotors.com/images/Rev.gif)
+This repository contains the source code for a **real-time, full-stack voice AI based Health assistant** built with **Google Gemini API** and **Node.js**.  
 
 ---
 
@@ -48,8 +45,8 @@ Follow these steps to run the project locally:
 
 ### 2. Clone the Repository
 ```bash
-git clone https://github.com/satendra-jaiswal/RevoltMotors-AI-Assistant.git
-cd RevoltMotors-AI-Assistant
+git clone https://github.com/satendra-jaiswal/AI-Health-Assistant.git
+cd AI-Health-Assistant
 ```
 
 ### 3. Install Dependencies
@@ -87,7 +84,7 @@ Open it in a modern browser (Google Chrome recommended) that supports the **Web 
 │   ├── style.css         # Styling for UI
 │   ├── script.js         # Core frontend logic
 │   ├── Rev.gif           # Bot animation/icon
-│   └── revolt-logo.svg   # App/brand logo
+│   └── rev_logo.jpg   # App/brand logo
 ├── .env                  # Environment variables (not committed)
 ├── package.json          # Dependencies & scripts
 └── server.js             # Express server & Gemini API integration
@@ -120,6 +117,6 @@ Contributions are welcome! Please fork the repo, create a branch, and open a pul
 
 * [Google Gemini API](https://aistudio.google.com)
 * [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
-* Inspiration: Revolt Motors AI Chatbot
+
 
 

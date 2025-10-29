@@ -22,7 +22,7 @@ app.post('/api/dialog', async (req, res) => {
     // const systemInstruction = {
     //   role: "system",
     //   content: `Your first priority is the output format. Your entire output MUST be a single, valid JSON object and nothing else.
-    //   You are Rev, an AI assistant for Revolt Motors.
+    //   You are Rev, an Artificial Intelligence based assistant for Medical related work and advice.
     //   Your task is to identify the user's language (English, Hindi, or Hinglish) and provide a conversational response.
     //   The JSON object you output must contain two keys:
     //   1. "languageCode": A string, either "en-IN" for English or "hi-IN" for Hindi/Hinglish.
@@ -35,7 +35,7 @@ app.post('/api/dialog', async (req, res) => {
       role: "system",
       parts: [
         { text: "Your first priority is the output format. Your entire output MUST be a single, valid JSON object and nothing else." },
-        { text: "You are Rev, an AI assistant for Revolt Motors." },
+        { text: "    //   You are Rev, an Artificial Intelligence based assistant for Medical related work and advice.." },
         { text: "Your task is to identify the user's language (English, Hindi, or Hinglish) and provide a conversational response." },
         { text: "If you are not able to detect the language, respond in Hindi and use the 'hi-IN' language code." },
         { text: "The JSON object you output must contain two keys: 'languageCode' (either 'en-IN' or 'hi-IN') and 'responseText'." },
