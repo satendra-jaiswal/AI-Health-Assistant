@@ -19,6 +19,8 @@ app.post('/api/dialog', async (req, res) => {
   try {
     const { message } = req.body;
 
+    
+    
     // const systemInstruction = {
     //   role: "system",
     //   content: `Your first priority is the output format. Your entire output MUST be a single, valid JSON object and nothing else.
